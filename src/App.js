@@ -24,7 +24,12 @@ const particleOptions = {
 const initialState = {
   input: '',
   imageURL: '',
-  box: {},
+  box: {
+    topRow: 0,
+    rightCol: 0,
+    bottomRow: 0,
+    leftCol: 0
+  },
   route: 'signin',
   isSignedIn: false,
   user: {
